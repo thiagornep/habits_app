@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--logo + botão registrar task-->
     <header>
       <img src="assets/logo.svg" alt="logo inicial do aplicativo habits" />
       <button>
@@ -22,9 +23,40 @@
       </button>
     </header>
 
-    <input type="checkbox" />
-    <input type="checkbox" />
-    <input type="checkbox" />
-    <input type="checkbox" />
+    <form action="">
+      <!--tag hábitos-->
+      <div class="habits">
+        <div class="habit">🚶‍♂️</div>
+        <div class="habit">💧</div>
+        <div class="habit">👨‍🍳</div>
+        <div class="habit">🐭</div>
+        <div class="habit">🏋️‍♂️</div>
+        <div class="habit">🚴‍♂️</div>
+      </div>
+      
+      <div class="days">
+        <div class="day">
+          <div>01/01</div>
+          <input type="checkbox" name="walk" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="cook" />
+          <input type="checkbox" name="pet" />
+          <input type="checkbox" name="gyn" />
+          <input type="checkbox" name="bike" />
+        </div>
+      </div>
+
+      <div class="days">
+        <div class="day">
+          <div>02/01</div>
+          <input type="checkbox" name="walk" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="cook" />
+          <input type="checkbox" name="pet" />
+          <input type="checkbox" name="gyn" />
+          <input type="checkbox" name="bike" />
+        </div>
+      </div>
+    </form>
   </body>
 </html>
