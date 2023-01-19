@@ -33,3 +33,20 @@ button {
   font-weight: 600;
   line-height: 125%;
 }
+
+input{
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272A;
+  border-radius: 8px;
+
+
+}
+
+input:checked{
+  background-color: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
