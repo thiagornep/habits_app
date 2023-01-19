@@ -4,12 +4,32 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: #09090A;
+body {
+  background-color: #09090a;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
-  display:grid;
-  place-items: center;
   height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 48px;
+}
+
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  line-height: 125%;
 }
