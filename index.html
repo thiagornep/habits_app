@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--logo + botão registrar task-->
     <header>
       <img src="assets/logo.svg" alt="logo inicial do aplicativo habits" />
       <button>
@@ -22,25 +23,40 @@
       </button>
     </header>
 
-    <forms>
-      <class class="habits">
-        <habit class="class">🏃‍♂️</habit>
-        <habit class="class">📚</habit>
-        <habit class="class">👩‍🍳</habit>
-      </class>
+    <form action="">
+      <!--tag hábitos-->
+      <div class="habits">
+        <div class="habit">🚶‍♂️</div>
+        <div class="habit">💧</div>
+        <div class="habit">👨‍🍳</div>
+        <div class="habit">🐭</div>
+        <div class="habit">🏋️‍♂️</div>
+        <div class="habit">🚴‍♂️</div>
+      </div>
 
-      <class class="days">
-        <class class="day">13/01</class>
-        <input type="checkbox" name="run" />
-        <input type="checkbox" name="study"/>
-        <input type="checkbox" name="coking"/>
-        <input type="checkbox" name="nothing"/>
-        <class class="day">14/01</class>
-        <class class="day">15/01</class>
-      </class>
-    </forms>
+      <div class="days">
+        <div class="day">
+          <div>01/01</div>
+          <input type="checkbox" name="walk" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="cook" />
+          <input type="checkbox" name="pet" />
+          <input type="checkbox" name="gyn" />
+          <input type="checkbox" name="bike" />
+        </div>
+      </div>
 
-    <input type="checkbox" />
-    <input type="checkbox" />
+      <div class="days">
+        <div class="day">
+          <div>02/01</div>
+          <input type="checkbox" name="walk" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="cook" />
+          <input type="checkbox" name="pet" />
+          <input type="checkbox" name="gyn" />
+          <input type="checkbox" name="bike" />
+        </div>
+      </div>
+    </form>
   </body>
 </html>
