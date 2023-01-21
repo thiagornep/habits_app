@@ -24,45 +24,27 @@
     <header>
       <img src="assets/logo.svg" alt="logo inicial do aplicativo habits" />
       <button>
-        <img src="assets/plus.svg" alt="sinal de + ou plus" /> Registrar o meu
-        dia
+        <img src="assets/plus.svg" alt="sinal de + ou plus" />
+        <div>Registrar o meu dia</div>
       </button>
     </header>
 
     <form id="form-habits">
       <!--tag hábitos-->
       <div class="habits">
-        <div class="habit">🚶‍♂️</div>
-        <div class="habit">💧</div>
-        <div class="habit">👨‍🍳</div>
-        <div class="habit">🐭</div>
-        <div class="habit">🏋️‍♂️</div>
-        <div class="habit">🚴‍♂️</div>
+        <div class="habit" data-name="walk">🚶‍♂️</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="cook">👨‍🍳</div>
+        <div class="habit" data-name="pet">🐭</div>
+        <div class="habit" data-name="gyn">🏋️‍♂️</div>
+        <div class="habit" data-name="bike">🚴‍♂️</div>
       </div>
 
-      <div class="days">
-        <div class="day">
-          <div>01/01</div>
-          <input type="checkbox" name="walk" />
-          <input type="checkbox" name="water" />
-          <input type="checkbox" name="cook" />
-          <input type="checkbox" name="pet" />
-          <input type="checkbox" name="gyn" />
-          <input type="checkbox" name="bike" />
-        </div>
-      </div>
-
-      <div class="days">
-        <div class="day">
-          <div>02/01</div>
-          <input type="checkbox" name="walk" />
-          <input type="checkbox" name="water" />
-          <input type="checkbox" name="cook" />
-          <input type="checkbox" name="pet" />
-          <input type="checkbox" name="gyn" />
-          <input type="checkbox" name="bike" />
-        </div>
-      </div>
+      <div class="days"></div>
     </form>
+
+    <!--SCRIPT JS-->
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
