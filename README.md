@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a rastrear os hábitos diários.
 
-- [Acesse o projeto finalizado, online](https://thiagornep.github.io/Devlink/)
+- [Acesse o projeto finalizado, online](https://thiagornep.github.io/habits-appgit/)
 
 ## 🔖 Layout
 
